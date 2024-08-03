@@ -81,9 +81,9 @@ if (isset($_POST['add_task'])) {
                            <td><?php echo $row['createdAt'];?></td>
                            <td><?php echo $row['updatedAt'];?></td>
                            <td>
-                               <a href="read.php?edit=<?php echo $row['id'];?>" class="btn"><i class="fa-solid fa-eye"></i>   view</a>
+                               <a href="read.php?read=<?php echo $row['id'];?>" class="btn"><i class="fa-solid fa-eye"></i>   view</a>
                                <a href="update.php?edit=<?php echo $row['id'];?>" class="btn mt-0"> <i class="fas fa-edit"></i>  edit</a>
-                               <a href="add_task.php?delete=<?php echo $row['id'];?>" class="btn mb-0"> <i class="fas fa-trash"></i>  delete</a>
+                               <a href="delete.php?delete=<?php echo $row['id'];?>" class="btn mb-0"> <i class="fas fa-trash"></i>  delete</a>
                            </td>
                        </tr>
                        <?php };?>
