@@ -78,8 +78,7 @@ if (isset($_POST['add_task'])) {
                         <tr>
                            <td><?php echo $row['title'];?></td>
                            <td><?php echo $row['description'];?></td>
-                           <td><?php echo $row['createdAt'];?></td>
-                           <td><?php echo $row['updatedAt'];?></td>
+                           <td><?php echo $row['updated_at'];?></td>
                            <td>
                                <a href="read.php?read=<?php echo $row['id'];?>" class="btn"><i class="fa-solid fa-eye"></i>   view</a>
                                <a href="update.php?edit=<?php echo $row['id'];?>" class="btn mt-0"> <i class="fas fa-edit"></i>  edit</a>
