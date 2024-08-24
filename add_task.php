@@ -67,7 +67,6 @@ if (isset($_POST['add_task'])) {
                          <tr>
                              <th>name</th>
                              <th>description</th>
-                             <th>create date</th>
                              <th>update date</th>
                              <th>action</th>
                          </tr>
